@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="description" content="Demo project with jQuery">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Ludovic Horem">
+		<link rel="stylesheet" href="lib/wnModal.css">
+		<title>Demo with jQuery</title>
+	</head>
+	<body>
+		<p id="po">Coucou</p>
+		<div id="popup1" class="popup_block">
+			<p>Hi, dudes</p>
+        </div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="lib/wnModal.js"></script>
+	<script type="text/javascript">
+		jQuery(function(){
+			$("#po").wnModal();
+		});
+	</script>
+</html>
