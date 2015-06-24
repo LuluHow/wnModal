@@ -28,13 +28,25 @@ jQuery(function(){
 <pre>
 larger: "width of modal window, in px"
 windowID: "ID of popup"   <--- if popup1, windowID: "1", popup2, windowID: "2"...
+bordercolor: "color of modal window border"
+happening: "event to bind - javascript and jQuery event supported :   - click
+                                                                      - dblclick
+                                                                      - mouseenter
+                                                                      - mouseleave
+                                                                      - mousemove
+                                                                      - mousedown
+                                                                      - mouseup
+                                                                      - mouseover
+                                                                      - mouseout"
 </pre>
 
 <pre>
 jQuery(function(){
   $("#window").wnModal({
     larger: "700",
-    windowID: "1"
+    windowID: "1",
+    bordercolor: "#EEE",
+    happening: "dblclick"
   });
 });
 </pre>
