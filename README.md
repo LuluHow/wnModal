@@ -17,7 +17,7 @@ Plugin for easy modal window
   &lt;/body&gt;
 &lt;/html&gt;</pre>
 
-#Usage
+# Usage
 <pre>
 jQuery(function(){
   $("#window").wnModal();
